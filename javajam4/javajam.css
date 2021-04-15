@@ -2,6 +2,33 @@
   box-sizing: border-box;
 }
 
+form {
+  padding: 2em;
+}
+
+label {
+  float: left;
+  display: block;
+  text-align: right;
+  width: 8em;
+  padding-right: 1em;
+}
+
+input, textarea {
+  display: block;
+  margin-bottom: 1em;
+}
+
+#mySubmit {
+  margin-left: 9.5em;
+}
+
+#herojobs {
+  height: 250px;
+  background-image: url("herojobs.jpg");
+  background-size: 100% 100%;
+}
+
 #heroroad {
   background-image: url("heroroad.jpg");
   background-size: 100%;
@@ -104,14 +131,13 @@ main {
   background-color: #fef6c2;
 }
 
-main,
-h2,
-h3,
-h4,
-p,
-div,
-ul,
-dl {
+main h2,
+main h3,
+main h4,
+main p,
+main div,
+main ul,
+main dl {
   padding-left: 3em;
   padding-right: 2em;
 }
@@ -221,16 +247,19 @@ footer {
   #heroroad {
     margin: 0;
     padding: 0;
+    height: auto;
   }
 
   #heroguitar {
     margin: 0;
     padding: 0;
+    height: auto;
   }
 
   #heromugs {
     margin: 0;
     padding: 0;
+    height: auto;
   }
 
   main {
@@ -249,6 +278,10 @@ footer {
     font-size: 2em;
     text-align: center;
     padding-left: 0;
+  }
+
+  #herojobs {
+    display: none;
   }
 
   nav {
@@ -286,16 +319,19 @@ footer {
   #heroroad {
     background-image: none;
     width: auto;
+    height: auto;
   }
 
   #heroguitar {
     background-image: none;
     width: auto;
+    height: auto;
   }
 
   #heromugs {
     background-image: none;
     width: auto;
+    height: auto;
   }
 
   .floatleft {
