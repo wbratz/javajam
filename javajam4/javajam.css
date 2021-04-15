@@ -14,7 +14,8 @@ label {
   padding-right: 1em;
 }
 
-input, textarea {
+input,
+textarea {
   display: block;
   margin-bottom: 1em;
 }
@@ -190,8 +191,14 @@ footer {
 #mobile {
   display: none;
 }
+
 #desktop {
   display: inline;
+}
+
+audio {
+  display: block;
+  margin-top: 1em;
 }
 
 @media only screen and (max-width: 1024px) {
